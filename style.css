@@ -1,0 +1,128 @@
+*{
+    border-collapse: collapse;
+}
+
+.header {
+    width: 100%;
+    background-color: #8B0000; 
+    }
+    
+    .logo {
+    width: 20%;
+    text-align: left;
+    background-color: #6B1B1C;
+    }
+    
+    .logo img {
+    max-width: 100px; 
+    }
+    
+    .menu {
+    width: 80%; 
+    text-align: right;
+    background-color: #6B1B1C;
+    }
+    
+    .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; }
+    
+    .content {
+        width: 100%;
+        }
+        
+        .text {
+        width: 45%;
+        padding: 20px;
+        background-color: #6B1B1C;
+        color: white;
+        font-size: 50px;
+        }
+        
+        .text h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        }
+        
+        .button {
+        background-color: #1B0909;
+        color: white;
+        padding: 20px 40px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 20px;
+        }
+        
+        .image {
+        width: 55%;
+        padding: 20px;
+        text-align: center;
+        background-color: #6B1B1C;
+        }
+        
+        .image img {
+        max-width: 100%;
+        height: auto;
+        }
+        
+        .promocao {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        
+        .imagem {
+            position: relative;
+        }
+        
+        .imagem img {
+            max-width: 300px;
+        }
+        
+        .desconto {
+            width: 280px;
+            position: absolute;
+            /* bottom: 10px;
+            left: 10px; */
+            bottom: 0;
+            background-color: #a52a2a;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+        .texto {
+            background-color: #a52a2a;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+        }
+
+    .footer {
+        width: 100%;
+        background-color: #6B1B1C; 
+        color: white;
+        margin-top: 50px;
+        }
+        
+        .contact {
+        width: 50%;
+        text-align: left;
+        padding-left: 20px; 
+        }
+        
+        .social {
+        width: 50%;
+        text-align: right;
+        padding-right: 20px; 
+        }
+        
+        .social img {
+        width: 30px; 
+        margin: 0 5px;
+        }

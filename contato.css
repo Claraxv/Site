@@ -1,0 +1,62 @@
+table {
+    width: 100%;
+    background-color: #6B1B1C; 
+    color: white; 
+    font-family: sans-serif; 
+}
+
+.logo {
+    width: 150px;
+    text-align: center; 
+}
+.logo img {
+    max-width: 100px; 
+    }
+
+.menu {
+    text-align: center; 
+}
+
+.menu a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+}
+
+.menu a:hover {
+    background-color:#6B1B1C; 
+}
+.menu {
+    width: 80%; 
+    text-align: right;
+    background-color: #6B1B1C;
+    }
+    .menu a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px; }
+
+
+        .footer {
+            width: 100%;
+            background-color: #6B1B1C; 
+            color: white;
+            margin-top: 50px;
+            }
+            
+            .contact {
+            width: 50%;
+            text-align: left;
+            padding-left: 20px; 
+            }
+            
+            .social {
+            width: 50%;
+            text-align: right;
+            padding-right: 20px; 
+            }
+            
+            .social img {
+            width: 30px; 
+            margin: 0 5px;
+            }
